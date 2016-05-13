@@ -14,8 +14,8 @@ def main():
     f = open("link.txt",'r')
     url_list =  f.readlines()
     f.close()
-    a = 12146
-    for ff in url_list[12146:]:
+    a = 13958
+    for ff in url_list[13958:]:
         print ff
         print a
         a += 1
